@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
@@ -7,113 +7,135 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <nav class="nav-hidden" aria-label="Nawigacja główna">
       <a href="#start">Start</a>
       <a href="#kto-wystapi-na-eurowizji-2027">Które kraje wystąpią?</a>
       <a href="#eurowizja-2027">Eurowizja 2027</a>
-      <a href="#polska-na-eurowizji-2026">Polska na Eurowizji 2026</a>
+      <a href="#polska-na-eurowizji-2026">Polska 2026</a>
       <a href="#eurowizja-2026">Eurowizja 2026</a>
     </nav>
 
-    <header>
+    <header id="start">
       <div class="header-content">
         <p class="eyebrow">Muzyka, emocje i sceniczne show</p>
         <h1>Strona o Eurowizji</h1>
-        <p>Aktualizacje prawie co dziennie</p>
+        <p class="subtitle">Aktualizacje prawie co dziennie</p>
+
+        <div class="header-actions">
+          <a class="primary-btn" href="#pierwsza-strona">Zobacz więcej</a>
+          <a class="secondary-btn" href="#eurowizja-2027">Eurowizja 2027</a>
+          <a class="secondary-btn" href="#kto-wystapi-na-eurowizji-2027">Które kraje wystąpią?</a>
+          <a class="secondary-btn" href="#polska-na-eurowizji-2026">Polska 2026</a>
+          <a class="secondary-btn" href="#eurowizja-2026">Eurowizja 2026</a>
+
+        </div>
       </div>
     </header>
 
     <main>
-        <section id="start" class="light">
-            <div class="tekst">
-            <h2>Czarnogóra zmienia zasady preselekcji! Nowe informacje o Montesong 2027</h2>
-            <p>Czarnogóra przygotowuje się do Eurowizji 2027 w Burgas.
-               Nadawca RTCG opublikował 6 listopada nowy regulamin krajowych preselekcji Montesong 2027,
-                w którym znalazły się szczegóły dotyczące wyboru piosenek i reprezentanta.</p>
-            <h3>Nawet 16 uczestników!</h3>
-            <p>W przyszłorocznym Montesong będzie mogło wystąpić maksymalnie 16 wykonawców.
-               Wszystkie zgłoszone utwory zostaną ocenione przez specjalną komisję selekcyjną składającą się z profesjonalistów z branży muzycznej.</p>
-            <p>Komisja będzie oceniać piosenki według trzech kryteriów:</p>
-            <p>Kompozycja – 50 punktów.</p>
-            <p>Tekst piosenki – 30 punktów.</p>
-            <p>Potencjał produkcyjny – 20 punktów</p>
-            <p>Aby zakwalifikować się do preselekcji, utwór musi zdobyć minimum 75 punktów na 100 możliwych.</p>
-            <h3>Kto może zgłosić piosenkę?</h3>
-            <p>Jedną z ciekawszych zasad jest możliwość zgłaszania utworów przez autorów z całego świata.
-               Nie muszą oni posiadać czarnogórskiego obywatelstwa.</p>
-            <p>Inaczej wygląda sytuacja wykonawców:</p>
-            <p>Muszą posiadać obywatelstwo Czarnogóry.</p>
-            <p>Muszą mieć ukończone 18 lat najpóźniej 1 maja 2027 roku.</p>
-            <p>Każdy autor może zgłosić maksymalnie dwie kompozycje.</p>
-            <p>Wszystkie piosenki muszą być oryginalne i nie mogą być wcześniej opublikowane ani publicznie wykonywane.</p>
-            <h3>Jak zostanie wybrany zwycięzca?</h3>
-            <p>O zwycięstwie w Montesong 2027 zdecydują dwa główne elementy:</p>
-            <p>50% – głosy profesjonalnego jury.</p>
-            <p>50% – głosy widzów.</p>
-            <p>Oznacza to, że widzowie ponownie będą mieli realny wpływ na wybór reprezentanta swojego kraju.</p>
-            <h3>Możliwy wybór wewnętrzny!</h3>
-            <p>W regulaminie znalazł się również ciekawy zapis.
-               Jeżeli żadna zgłoszona piosenka nie spełni oczekiwań komisji,
-                RTCG może zrezygnować z organizacji Montesong i samodzielnie wybrać wykonawcę oraz utwór.</p>
-            <h3>Kiedy odbędzie się Montesong 2027?</h3>
-            <p>Dokładna data preselekcji nie została jeszcze ogłoszona.
-               Nadawca ma dopiero opublikować szczegóły dotyczące terminu przyjmowania zgłoszeń oraz organizacji konkursu.</p>
-            <p>Czarnogóra po raz kolejny stawia na krajowe preselekcje.
-               Czy Montesong 2027 wyłoni kolejnego reprezentanta, który awansuje do wielkiego finału Eurowizji?</p>
-            <p>Tego dowiemy się w najbliższych miesiącach!</p>
-          </div>
-        </section>
-        <section class="dark">
+      <section id="pierwsza-strona" class="light z-obrazem reverse">
+        <img
+          class="side-image"
+          src="https://escspot.pl/wp-content/uploads/2026/11/Tamara_ESC2026-scaled-e1793965270334.webp"
+          alt="Eurowizja 2027"
+        />
+
         <div class="tekst">
-            <h2>Cypr wybrał reprezentanta na Eurowizję 2027!</h2>
-            <p>Cypr jako pierwszy kraj ogłosił swojego reprezentanta na 71.
-                Konkurs Piosenki Eurowizji, który odbędzie się w maju 2027 roku w Burgas w Bułgarii.</p>
-            <h3>George Perris reprezentantem Cypru!</h3>
-            <p>4 listopada 2026 roku cypryjski nadawca publiczny CyBC oficjalnie poinformował,
-                 że George Perris będzie reprezentował kraj podczas Eurowizji 2027.</p>
-            <p>George Perris to grecko-francuski wokalista urodzony w Atenach w 1983 roku.
-                 Śpiewa w kilku językach, między innymi po grecku, angielsku, francusku i hiszpańsku.
-                  W swojej karierze współpracował z takimi artystami jak Lara Fabian, Plácido Domingo czy Tina Arena.</p>
-            <h3>Jak zostanie wybrana piosenka?</h3>
-            <p>W przeciwieństwie do reprezentanta, utwór nie został jeszcze wybrany.
-                 Cypr zdecydował się na specjalne telewizyjne preselekcje,
-                  podczas których George zaprezentuje kilka propozycji.</p>
-            <p>Ostateczny wybór piosenki zostanie dokonany przez:</p>
-            <p>50% głosów widzów</p>
-            <p>50% głosów profesjonalnego jury.</p>
-            <p>Czy Cypr w końcu zdobędzie swoje pierwsze zwycięstwo w historii Eurowizji? Tego dowiemy się w maju 2027 roku!</p>
-        </div>
-        </section>
-              <section id="eurowizja-2027" class="light">
-        <div class="tekst">
-          <h2>Eurowizja 2027-Co już wiemy?</h2>
+          <h2>Czarnogóra zmienia zasady preselekcji! Nowe informacje o Montesong 2027</h2>
           <p>
-            Po zwycięstwie Bułgarii w 2026 roku konkurs Eurowizji przenosi się do miasta Burgas nad Morzem Czarnym.
-            Będzie to wyjątkowa edycja, podczas której reprezentanci z różnych krajów ponownie spotkają się na jednej scenie,
-             aby walczyć o zwycięstwo.
+            Czarnogóra przygotowuje się do Eurowizji 2027 w Burgas. Nadawca RTCG opublikował
+            6 listopada nowy regulamin krajowych preselekcji Montesong 2027, w którym znalazły
+            się szczegóły dotyczące wyboru piosenek i reprezentanta.
           </p>
+
+          <h3>Nawet 16 uczestników!</h3>
+          <p>
+            W przyszłorocznym Montesong będzie mogło wystąpić maksymalnie 16 wykonawców. Wszystkie
+            zgłoszone utwory zostaną ocenione przez specjalną komisję selekcyjną złożoną z
+            profesjonalistów z branży muzycznej.
+          </p>
+          <p>Komisja oceni piosenki według trzech kryteriów:</p>
+          <ul>
+            <li>Kompozycja – 50 punktów</li>
+            <li>Tekst piosenki – 30 punktów</li>
+            <li>Potencjał produkcyjny – 20 punktów</li>
+          </ul>
+          <p>Aby zakwalifikować się do preselekcji, utwór musi zdobyć minimum 75 punktów na 100 możliwych.</p>
+
+          <h3>Kto może zgłosić piosenkę?</h3>
+          <p>
+            Jedną z ciekawszych zasad jest możliwość zgłaszania utworów przez autorów z całego
+            świata. Nie muszą oni posiadać czarnogórskiego obywatelstwa.
+          </p>
+          <p>Inaczej wygląda sytuacja wykonawców:</p>
+          <ul>
+            <li>muszą posiadać obywatelstwo Czarnogóry</li>
+            <li>muszą mieć ukończone 18 lat najpóźniej 1 maja 2027 roku</li>
+            <li>każdy autor może zgłosić maksymalnie dwie kompozycje</li>
+          </ul>
+          <p>Wszystkie piosenki muszą być oryginalne i nie mogą być wcześniej opublikowane ani publicznie wykonywane.</p>
+
+          <h3>Jak zostanie wybrany zwycięzca?</h3>
+          <p>O zwycięstwie w Montesong 2027 zdecydują dwa główne elementy:</p>
+          <ul>
+            <li>50% – głosy profesjonalnego jury</li>
+            <li>50% – głosy widzów</li>
+          </ul>
+          <p>Oznacza to, że widzowie ponownie będą mieli realny wpływ na wybór reprezentanta swojego kraju.</p>
+        </div>
+      </section>
+
+      <section class="dark">
+        <div class="tekst">
+          <h2>Cypr wybrał reprezentanta na Eurowizję 2027!</h2>
+          <p>
+            Cypr jako pierwszy kraj ogłosił swojego reprezentanta na 71. Konkurs Piosenki Eurowizji,
+            który odbędzie się w maju 2027 roku w Burgas w Bułgarii.
+          </p>
+          <h3>George Perris reprezentantem Cypru!</h3>
+          <p>
+            4 listopada 2026 roku cypryjski nadawca publiczny CyBC oficjalnie poinformował, że
+            George Perris będzie reprezentował kraj podczas Eurowizji 2027.
+          </p>
+          <p>
+            George Perris to grecko-francuski wokalista urodzony w Atenach w 1983 roku. Śpiewa w kilku
+            językach, między innymi po grecku, angielsku, francusku i hiszpańsku.
+          </p>
+          <p>
+            Ostateczny wybór piosenki zostanie dokonany przez 50% głosów widzów i 50% głosów
+            profesjonalnego jury.
+          </p>
+        </div>
+      </section>
+
+      <section id="eurowizja-2027" class="light">
+        <div class="tekst">
+          <h2>Eurowizja 2027 – co już wiemy?</h2>
+          <p>
+            Po zwycięstwie Bułgarii w 2026 roku konkurs Eurowizji przenosi się do miasta Burgas nad
+            Morzem Czarnym. Będzie to wyjątkowa edycja, podczas której reprezentanci z różnych krajów
+            ponownie spotkają się na jednej scenie, aby walczyć o zwycięstwo.
+          </p>
+
           <h3>Najważniejsze daty</h3>
-          <p>11 maja 2027 – pierwszy półfinał</p>
-           <p>13 maja 2027 – drugi półfinał</p>
-           <p>15 maja 2027 – wielki finał</p>
+          <ul>
+            <li>11 maja 2027 – pierwszy półfinał</li>
+            <li>13 maja 2027 – drugi półfinał</li>
+            <li>15 maja 2027 – wielki finał</li>
+          </ul>
+
           <h3>Uczestniczące kraje</h3>
-          <p>Wśród potwierdzonych uczestników znajdują się między innymi
-             Polska, Bułgaria, Rumunia, Mołdawia, Czarnogóra, Macedonia Północna, Niemcy, Francja,
-              Włochy, Szwecja, Norwegia, Ukraina i Wielka Brytania.</p>
-            <h3>Polska na Eurowizji 2027</h3>
-            <p>Polska ponownie pojawi się na eurowizyjnej scenie!
-                 Na ten moment nie znamy jeszcze nazwiska reprezentanta ani tytułu piosenki.
-                  Fani z niecierpliwością czekają na informacje dotyczące polskich preselekcji i wyboru kolejnego artysty.
-            </p>
-            <h3>Nowy uczestnik – Kanada!</h3>
-            <p>Jedną z ciekawszych informacji jest udział Kanady, która ma zadebiutować w głównym Konkursie Piosenki Eurowizji. 
-                To kolejny krok w rozwoju międzynarodowego charakteru konkursu.</p>
-            <h3>Wspomnienie Eurowizji 2026</h3>
-            <p>W 2026 roku zwycięstwo odniosła Bułgaria reprezentowana przez DARĘ z utworem „Bangaranga”.
-                Artystka zdobyła 516 punktów, zapewniając swojemu krajowi pierwsze zwycięstwo w historii konkursu.</p>
+          <p>
+            Wśród potwierdzonych uczestników znajdują się między innymi Polska, Bułgaria, Rumunia,
+            Mołdawia, Czarnogóra, Macedonia Północna, Niemcy, Francja, Włochy, Szwecja, Norwegia,
+            Ukraina i Wielka Brytania.
           </p>
-            <p>Eurowizja 2027 zapowiada się jako kolejna edycja pełna emocji, muzycznych niespodzianek i niezapomnianych występów.
-                 Kto tym razem zdobędzie Kryształowy Mikrofon? Przekonamy się już w maju 2027 roku!</p>
+
+          <h3>Nowy uczestnik – Kanada!</h3>
+          <p>
+            Jedną z ciekawszych informacji jest udział Kanady, która ma zadebiutować w głównym Konkursie
+            Piosenki Eurowizji. To kolejny krok w rozwoju międzynarodowego charakteru konkursu.
+          </p>
         </div>
       </section>
 
@@ -121,39 +143,34 @@
         <img
           class="side-image"
           src="https://escspot.pl/wp-content/uploads/2026/10/Kopia-%E2%80%93-ESC-SPOT-POST-110.png"
-          alt="Bułgaria na Eurowizji"
+          alt="Eurowizja 2027"
         />
         <div class="tekst">
-          <h2>Eurowizja 2027 – Kto wystąpi, kto się wycofał, a kto jeszcze się zastanawia?</h2>
-          <p>Przygotowania do 71. Konkursu Piosenki Eurowizji w Burgas trwają w najlepsze.
-             Europejska Unia Nadawców (EBU) potwierdziła już udział 36 nadawców, jednak lista uczestników może jeszcze ulec zmianie.</p>
+          <h2>Eurowizja 2027 – kto wystąpi, kto się wycofał, a kto jeszcze się zastanawia?</h2>
+          <p>
+            Przygotowania do 71. Konkursu Piosenki Eurowizji w Burgas trwają w najlepsze. Europejska
+            Unia Nadawców (EBU) potwierdziła już udział 36 nadawców, jednak lista uczestników może
+            jeszcze ulec zmianie.
+          </p>
           <p>Wśród tegorocznych informacji pojawiły się zarówno powroty, debiuty, jak i kolejne wycofania.</p>
-          <h3> Kraje potwierdzone</h3>
-          <p>a dzień 7 listopada 2026 roku udział w Eurowizji 2027 potwierdziło 36 krajów:</p>
-          <p>Albania, Armenia, Australia, Austria, Azerbejdżan, Belgia, Bułgaria, Kanada, Chorwacja, Cypr,
-             Dania, Estonia, Finlandia, Francja, Gruzja, Niemcy, Grecja, Izrael, Włochy, Łotwa, Litwa, Luksemburg, Malta,
-              Mołdawia, Czarnogóra, Macedonia Północna, Norwegia, Polska, Portugalia, Rumunia, San Marino,
-               Serbia, Szwecja, Szwajcaria, Ukraina oraz Wielka Brytania.</p>
+
+          <h3>Kraje potwierdzone</h3>
+          <p>Do 7 listopada 2026 roku udział w Eurowizji 2027 potwierdziło 36 krajów.</p>
+          <p>
+            Albania, Armenia, Australia, Austria, Azerbejdżan, Belgia, Bułgaria, Kanada, Chorwacja,
+            Cypr, Dania, Estonia, Finlandia, Francja, Gruzja, Niemcy, Grecja, Izrael, Włochy, Łotwa,
+            Litwa, Luksemburg, Malta, Mołdawia, Czarnogóra, Macedonia Północna, Norwegia, Polska,
+            Portugalia, Rumunia, San Marino, Serbia, Szwecja, Szwajcaria, Ukraina oraz Wielka Brytania.
+          </p>
+
           <h3>Kraje, które się wycofały</h3>
-          <p>W porównaniu z Eurowizją 2026 w konkursie 2027 zabraknie Czech.</p>
-          <p>Czechy – wycofanie związane z powodami finansowymi.</p>
-          <p>Irlandia – kontynuuje bojkot konkursu związany z udziałem Izraela</p>
-          <p>Holandia – nadawca NPO zdecydował, że kraj nie wystąpi również w 2027 roku.</p>
+          <p>W porównaniu z Eurowizją 2026 w konkursie 2027 zabraknie Czech, Irlandii oraz Holandii.</p>
+
           <h3>Kraje, które jeszcze się zastanawiają</h3>
-          <p>Nie wszystkie decyzje zostały już podjęte. Dwa kraje otrzymały dodatkowy czas na określenie swojego stanowiska:</p>
-          <p>Hiszpania – nadawca RTVE nie potwierdził jeszcze udziału. EBU dała mu czas do grudnia.</p>
-          <p>Węgry – nadawca MTVA również nie podjął jeszcze decyzji. EBU dała mu czas do grudnia.</p>
-          <p>Słowenia – nadawca RTVSLO również ma czas do grudnia na podjęcie decyzji.</p>
-          <p>Dodatkowo 🇮🇸 Islandia nie znalazła się na oficjalnej liście uczestników.
-             Jej nadawca RÚV nie ogłosił jednak jeszcze ostatecznej decyzji dotyczącej 2027 roku.</p>
-          <h3>Powroty i debiuty</h3>
-          <p>Eurowizja 2027 przyniesie również kilka ciekawych zmian:</p>
-          <p>Kanada – zadebiutuje w głównym Konkursie Piosenki Eurowizji.</p>
-          <p>Macedonia Północna – powróci po czteroletniej przerwie.</p>
-          <h3>Co dalej?</h3>
-          <p>Do grudnia 2026 roku powinniśmy poznać decyzje Hiszpanii i Słowenii.
-             W kolejnych miesiącach rozpoczną się również ogłoszenia reprezentantów, preselekcje oraz prezentacje piosenek.</p>
-          <p>Eurowizja 2027 zapowiada się na edycję pełną zmian. Czy lista uczestników jeszcze się powiększy? Przekonamy się w najbliższych miesiącach!</p>
+          <p>
+            Hiszpania, Węgry i Słowenia otrzymały dodatkowy czas na podjęcie decyzji. Islandia nie
+            znalazła się jeszcze na oficjalnej liście uczestników.
+          </p>
         </div>
       </section>
 
@@ -161,25 +178,14 @@
         <div class="tekst">
           <h2>Magiczny świat Eurowizji</h2>
           <p>
-            Konkurs Piosenki Eurowizji to jedno z największych i najbardziej
-            widowiskowych wydarzeń muzycznych na świecie. Każdego roku artyści z
-            całej Europy i spoza niej spotykają się, by wspólnie celebrować
-            muzykę, kulturę oraz kreatywność. Od poruszających ballad po pełne
-            energii występy popowe – Eurowizja dostarcza niezapomnianych wrażeń
-            milionom widzów na całym globie.
+            Konkurs Piosenki Eurowizji to jedno z największych i najbardziej widowiskowych wydarzeń
+            muzycznych na świecie. Każdego roku artyści z całej Europy i spoza niej spotykają się,
+            by wspólnie celebrować muzykę, kulturę oraz kreatywność.
           </p>
           <p>
-            Od samego początku konkurs stał się symbolem jedności,
-            różnorodności i muzycznej ekspresji. Państwa wystawiają do rywalizacji
-            swoich najbardziej utalentowanych artystów, prezentując wyjątkowe
-            utwory, imponującą scenografię oraz spektakularne efekty wizualne.
-            Każdy występ opowiada inną historię, dzięki czemu każda edycja jest
-            doprawdy niepowtarzalna.
-          </p>
-          <p>
-            Gdy rozbłyskują światła, rozbrzmiewa muzyka, a głosy zostają
-            podliczone, pozostaje już tylko jedno pytanie: który kraj zdobędzie
-            trofeum i zostanie kolejnym gospodarzem Konkursu Piosenki Eurowizji?
+            Gdy rozbłyskują światła, rozbrzmiewa muzyka, a głosy zostają podliczone, pozostaje już
+            tylko jedno pytanie: który kraj zdobędzie trofeum i zostanie kolejnym gospodarzem Konkursu
+            Piosenki Eurowizji?
           </p>
         </div>
       </section>
@@ -188,28 +194,17 @@
         <div class="tekst">
           <h2>Polska na Eurowizji 2026</h2>
           <p>
-            W 2026 roku Polska z dumą powróciła do Konkursu Piosenki Eurowizji,
-            reprezentowana przez utalentowaną wokalistkę ALICJĘ z utworem „Pray”.
-            70. edycja konkursu odbyła się w Wiedniu, w Austrii, gromadząc artystów
-            i miłośników muzyki z całej Europy.
+            W 2026 roku Polska z dumą powróciła do Konkursu Piosenki Eurowizji, reprezentowana przez
+            utalentowaną wokalistkę ALICJĘ z utworem „Pray”. 70. edycja konkursu odbyła się w Wiedniu,
+            w Austrii, gromadząc artystów i miłośników muzyki z całej Europy.
           </p>
           <p>
-            ALICJA zaprezentowała niezwykle poruszający występ, łącząc imponujące
-            warunki wokalne, głęboki ładunek emocjonalny oraz unikalny styl
-            muzyczny. Jej piosenka „Pray” przykuła uwagę fanów Eurowizji i stała
-            się dla Polski ważnym momentem w tegorocznej rywalizacji.
+            Po emocjonującej drodze przez pierwszy półfinał, Polska zakwalifikowała się do wielkiego
+            finału, zajmując ostatecznie 12. miejsce ze 150 punktami.
           </p>
           <p>
-            Po emocjonującej drodze przez pierwszy półfinał, Polska zakwalifikowała
-            się do wielkiego finału, zajmując ostatecznie 12. miejsce ze 150
-            punktami. Ten sukces po raz kolejny dowiódł, jak wielką pasją do
-            muzyki darzą Polacy i jak silną pozycję zajmują na eurowizyjnej scenie.
-          </p>
-          <p>
-            Od niezapomnianych występów po ogromne emocje – Polska niezmiennie
-            pozostaje istotną częścią Konkursu Piosenki Eurowizji. Ta przygoda
-            nigdy się nie kończy, a polscy fani już teraz z niecierpliwością
-            wyczekują kolejnej edycji!
+            Od niezapomnianych występów po ogromne emocje – Polska niezmiennie pozostaje istotną
+            częścią Konkursu Piosenki Eurowizji.
           </p>
         </div>
         <img
@@ -228,56 +223,17 @@
         <div class="tekst">
           <h2>Bułgaria na Eurowizji 2026</h2>
           <p>
-            Bułgaria zapisała się w historii Konkursu Piosenki Eurowizji 2026 dzięki
-            niezapomnianemu występowi DARY i jej pełnemu energii utworowi
-            „Bangaranga”.
+            Bułgaria zapisała się w historii Konkursu Piosenki Eurowizji 2026 dzięki niezapomnianemu
+            występowi DARY i jej pełnemu energii utworowi „Bangaranga”.
           </p>
           <p>
-            Po powrocie do rywalizacji Bułgaria zaskoczyła fanów Eurowizji
-            wybuchowym połączeniem potężnego wokalu, nowoczesnej muzyki pop i
-            niesamowitej energii scenicznej. DARA błyskawicznie stała się jedną z
-            najczęściej omawianych artystek tego roku.
+            Wielki finał odbył się w Wiedniu, w Austrii, gdzie Bułgaria osiągnęła znakomity wynik,
+            zdobywając łącznie 516 punktów od międzynarodowych jurorów oraz w głosowaniu publiczności.
           </p>
           <p>
-            Wielki Finał odbył się w Wiedniu, w Austrii, gdzie Bułgaria osiągnęła
-            znakomity wynik, zdobywając łącznie 516 punktów od międzynarodowych
-            jurorów oraz w głosowaniu publiczności.
-          </p>
-          <p>
-            Dzięki temu osiągnięciu Bułgaria świętowała swoje pierwsze w historii
-            zwycięstwo w konkursie Eurowizji. DARA stała się gwiazdą narodową, a
-            jej występ na zawsze zapisał się w historii bułgarskiej muzyki.
-          </p>
-          <p>
-            Eurowizyjna przygoda trwa dalej, jednak rok 2026 na zawsze pozostanie w
-            pamięci jako moment, w którym Bułgaria podbiła scenę Eurowizji!
-          </p>
-        </div>
-      </section>
-
-      <section class="dark">
-        <div class="tekst">
-          <h2>Magia Eurowizji</h2>
-          <p>
-            Od dziesięcioleci Eurowizja łączy ludzi za sprawą uniwersalnego języka
-            muzyki. Każdego roku konkurs dostarcza niezapomnianych wrażeń, odkrywa
-            nowe talenty muzyczne i celebruje różnorodność europejskiej kultury.
-          </p>
-          <p>
-            Za każdym występem kryją się miesiące przygotowań, kreatywne pomysły i
-            niezliczone godziny ciężkiej pracy. Artyści współpracują z producentami,
-            tancerzami, projektantami oraz reżyserami, by stworzyć coś doprawdy
-            niezwykłego.
-          </p>
-          <p>
-            W Eurowizji nie chodzi tylko o zwycięstwo. Chodzi o wyrażanie emocji,
-            dzielenie się odmiennymi kulturami i tworzenie chwil, które fani
-            zapamiętają na zawsze. Od spektakularnych inscenizacji po nieoczekiwane
-            rozstrzygnięcia – każda edycja ma swoją własną, wyjątkową historię.
-          </p>
-          <p>
-            Jedna scena, dziesiątki krajów, setki marzeń i miliony widzów. Oto magia
-            Eurowizji!
+            Dzięki temu osiągnięciu Bułgaria świętowała swoje pierwsze w historii zwycięstwo w konkursie
+            Eurowizji. DARA stała się gwiazdą narodową, a jej występ na zawsze zapisał się w historii
+            bułgarskiej muzyki.
           </p>
         </div>
       </section>
@@ -286,5 +242,19 @@
     <footer>
       <p>Ostatnia aktualizacja: 07.11.2026</p>
     </footer>
+    <script>
+      const navigation = document.querySelector("nav");
+      const heroButtons = document.querySelector(".header-actions");
+
+      if (navigation && heroButtons && "IntersectionObserver" in window) {
+        const buttonsObserver = new IntersectionObserver(([entry]) => {
+          navigation.classList.toggle("nav-hidden", entry.isIntersecting);
+        });
+
+        buttonsObserver.observe(heroButtons);
+      } else if (navigation) {
+        navigation.classList.remove("nav-hidden");
+      }
+    </script>
   </body>
 </html>
